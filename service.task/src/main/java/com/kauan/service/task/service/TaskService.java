@@ -1,9 +1,14 @@
-package com.kauan.service.task;
+package com.kauan.service.task.service;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
+
+import com.kauan.service.task.client.NotificationClient;
+import com.kauan.service.task.dto.request.NotificationRequest;
+import com.kauan.service.task.model.TasksEntity;
+import com.kauan.service.task.repository.TaskRepository;
 
 @Service
 public class TaskService {

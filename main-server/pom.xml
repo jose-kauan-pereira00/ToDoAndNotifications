@@ -78,7 +78,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				
 				<configuration>
+					<arguments>
+						<argument>--spring.profiles.active=native</argument>
+					</arguments>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>

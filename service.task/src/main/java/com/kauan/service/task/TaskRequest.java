@@ -1,6 +1,0 @@
-package com.kauan.service.task;
-
-import java.time.LocalDateTime;
-
-public record TaskRequest(String title, String email, LocalDateTime dueDate, boolean  notifide) {
-}
